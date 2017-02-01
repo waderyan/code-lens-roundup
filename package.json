@@ -1,0 +1,32 @@
+{
+    "name": "code-lens-roundup",
+    "displayName": "Code Lens Roundup",
+    "description": "Popular code lens extensions featured in Wade's extension roundup.",
+    "version": "1.0.0",
+    "publisher": "waderyan",
+    "engines": {
+        "vscode": "^1.5.0"
+    },
+    "icon": "code-lens-icon.png",
+    "galleryBanner": {
+        "color": "#0072c6",
+        "theme": "dark"
+    },
+    "repository": {
+        "url": "https://github.com/waderyan/code-lens-roundup"
+    },
+    "homepage": "https://github.com/waderyan/code-lens-roundup",
+    "bugs": {
+        "url": "https://github.com/waderyan/code-lens-roundup/issues"
+    },
+    "categories": [
+        "Extension Packs"
+    ],
+    "extensionDependencies": [
+        "eamodio.gitlens",
+        "VisualStudioOnlineApplicationInsights.application-insights",
+        "kisstkondoros.vscode-codemetrics",
+        "chrmarti.regex",
+        "pflannery.vscode-versionlens"
+    ]
+}
